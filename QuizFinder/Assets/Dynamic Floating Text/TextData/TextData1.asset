@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcff3a5a705644c4e9a3068b0236a108, type: 3}
   m_Name: TextData1
   m_EditorClassIdentifier: 
-  id: 
+  id: 1
   colours: []
-  sizes: []
+  sizes:
+  - 3
   font: {fileID: 0}
   bold: 0
   italic: 0
   underline: 0
   strikethrough: 0
-  lifetime: 0
+  lifetime: 9999
   numberOfColourAlternations: 0
   numberOfSizeAlternations: 0
   colourAlternationDuration: 0

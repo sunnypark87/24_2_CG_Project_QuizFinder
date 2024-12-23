@@ -12,6 +12,8 @@ public class Answer : MonoBehaviour
     public DynamicTextData textData; // 사용할 텍스트 데이터
     public Vector3 textOffset = new Vector3(0, 2, 0); // 텍스트 위치 오프셋
 
+    public bool quizAnswer;
+
     // 활성화될 때 호출
     private void OnEnable()
     {
@@ -19,7 +21,7 @@ public class Answer : MonoBehaviour
     }
 
     // 텍스트를 표시하는 공통 메서드
-    protected virtual void ShowText()
+    public virtual void ShowText()
     {
         if (textData != null && !string.IsNullOrEmpty(displayText))
         {
