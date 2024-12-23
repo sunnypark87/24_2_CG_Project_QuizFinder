@@ -8,6 +8,7 @@ public class AnswerX : Answer
     {
         // 부모의 quizAnswer 변수 참조
         Answer answer = GetComponentInParent<Answer>();
+        thisAnswer = false;
         if (answer != null)
         {
             answer.ShowText();
