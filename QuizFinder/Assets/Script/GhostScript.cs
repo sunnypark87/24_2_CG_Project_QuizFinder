@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 namespace Sample {
@@ -9,6 +10,9 @@ public class GhostScript : MonoBehaviour
     private Animator Anim;
     private CharacterController Ctrl;
     private Vector3 MoveDirection = Vector3.zero;
+    private NavMeshAgent Agent; // NavMeshAgent 추가
+    private bool useNavMesh = false; // NavMesh 모드 활성화 여부
+
     // Cache hash values
     private static readonly int IdleState = Animator.StringToHash("Base Layer.idle");
     private static readonly int MoveState = Animator.StringToHash("Base Layer.move");
@@ -16,6 +20,7 @@ public class GhostScript : MonoBehaviour
     private static readonly int AttackState = Animator.StringToHash("Base Layer.attack_shift");
     private static readonly int DissolveState = Animator.StringToHash("Base Layer.dissolve");
     private static readonly int AttackTag = Animator.StringToHash("Attack");
+
     // dissolve
     [SerializeField] private SkinnedMeshRenderer[] MeshR;
     private float Dissolve_value = 1;
@@ -31,15 +36,30 @@ public class GhostScript : MonoBehaviour
     {
         Anim = this.GetComponent<Animator>();
         Ctrl = this.GetComponent<CharacterController>();
+        Agent = this.GetComponent<NavMeshAgent>(); // NavMeshAgent 초기화
+        Agent.enabled = false; // 기본은 비활성화
+
         HP_text = GameObject.Find("Canvas/HP").GetComponent<Text>();
         HP_text.text = "HP " + HP.ToString();
     }
 
     void Update()
     {
+        HandleInput();
+
+        if (useNavMesh)
+        {
+            if (Agent.remainingDistance <= Agent.stoppingDistance && !Agent.pathPending)
+            {
+                Anim.CrossFade(IdleState, 0.1f, 0, 0);
+            }
+            return;
+        }
+
         STATUS();
         GRAVITY();
         Respawn();
+
         // this character status
         if(!PlayerStatus.ContainsValue( true ))
         {
@@ -81,6 +101,33 @@ public class GhostScript : MonoBehaviour
         else if(HP == maxHP && DissolveFlg)
         {
             DissolveFlg = false;
+        }
+    }
+
+    private void HandleInput()
+    {
+        // NavMesh 이동 활성화
+        if (Input.GetMouseButtonDown(1)) // 우클릭
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out RaycastHit hit))
+            {
+                // 클릭한 지점의 좌표 출력
+                Debug.Log($"우클릭 위치: {hit.point}");
+
+                Agent.enabled = true;
+                useNavMesh = true;
+                Agent.SetDestination(hit.point); // 이동 목표 설정
+                Anim.CrossFade(MoveState, 0.1f, 0, 0); // 걷기 애니메이션
+            }
+
+        }
+
+        // NavMesh 이동 해제
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            useNavMesh = false;
+            Agent.enabled = false;
         }
     }
 
@@ -153,7 +200,7 @@ public class GhostScript : MonoBehaviour
     //---------------------------------------------------------------------
     private void GRAVITY ()
     {
-        if(Ctrl.enabled)
+        if(!useNavMesh && Ctrl.enabled)
         {
             if(CheckGrounded())
             {
@@ -184,8 +231,10 @@ public class GhostScript : MonoBehaviour
     //---------------------------------------------------------------------
     private void MOVE ()
     {
+        if (useNavMesh) return; // NavMesh가 활성화되었으면 기존 이동 비활성화
+
         // velocity
-        if(Anim.GetCurrentAnimatorStateInfo(0).fullPathHash == MoveState)
+        if (Anim.GetCurrentAnimatorStateInfo(0).fullPathHash == MoveState)
         {
             if (Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
             {
