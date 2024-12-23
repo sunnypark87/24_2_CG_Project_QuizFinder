@@ -4056,6 +4056,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 267038151}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &276174606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5527053259235442766, guid: 0083d1c8cc354994b8641299c0ef1a41,
+    type: 3}
+  m_PrefabInstance: {fileID: 549658851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &281672601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5822,6 +5828,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: QuizTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: answerObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 276174606}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12903,6 +12914,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1028450249}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1039675420
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1797442807575341249, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: _mainCamera
+      value: 
+      objectReference: {fileID: 245282002}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.61000013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0699997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5860553
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2964314941961860334, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: m_Name
+      value: Quiz
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 36ba40da211a6a84497e79ad70d94895, type: 3}
 --- !u!1001 &1048539323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28863,3 +28947,4 @@ SceneRoots:
   - {fileID: 745535180}
   - {fileID: 549658851}
   - {fileID: 462786271}
+  - {fileID: 1039675420}
