@@ -27,6 +27,7 @@ public class BulletSpawner : MonoBehaviour
         bullet.transform.localScale = bulletScale;
 
         Rigidbody rb = bullet.AddComponent<Rigidbody>();
+        bullet.AddComponent<Bullet>();
 
         Vector3 direction = (character - randomPosition).normalized;
         bullet.transform.forward = direction;
@@ -41,9 +42,11 @@ public class BulletSpawner : MonoBehaviour
         lineRenderer.SetPosition(0, randomPosition); // 시작점: 총알 생성 위치
         lineRenderer.SetPosition(1, randomPosition + direction * 10f); // 끝점: 예상 경로 끝
 
-
         rb.AddForce(direction * fireForce);
         rb.useGravity = false;
+
+        Collider bulletCollider = bullet.GetComponent<Collider>();
+        bulletCollider.isTrigger = false;
 
         Destroy(bullet, bulletLiftTime);
     }
@@ -76,5 +79,19 @@ public class BulletSpawner : MonoBehaviour
             StartCoroutine(SpawnBulletsForDuration(10f));
         }
         character = target.transform.position;
+    }
+}
+public class Bullet : MonoBehaviour
+{
+    // 총알이 충돌할 때 호출되는 메서드
+    void OnCollisionEnter(Collision collision)
+    {
+        // 충돌한 물체가 "Target"인 경우
+        if (collision.gameObject.CompareTag("Map"))
+        {
+            // 총알이 타겟과 충돌 시 총알을 파괴
+            Destroy(gameObject);  // 총알 파괴
+            Debug.Log("Bullet hit the target!");
+        }
     }
 }
