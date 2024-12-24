@@ -26,6 +26,7 @@ public class TriggerQuiz : MonoBehaviour
             ActivateAnswerObjects();
 
             check = true;
+            this.gameObject.SetActive(false);
         }
     }
 
