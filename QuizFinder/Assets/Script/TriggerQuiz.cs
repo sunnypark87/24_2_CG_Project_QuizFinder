@@ -54,7 +54,7 @@ public class TriggerQuiz : MonoBehaviour
         else
         {
             Debug.Log("틀렸습니다");
-            SceneController.Instance.LoadDeathgame();
+            //SceneController.Instance.LoadDeathgame();
         }
         
     }
