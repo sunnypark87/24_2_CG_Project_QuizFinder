@@ -41,9 +41,6 @@ namespace Sample
             Anim = this.GetComponent<Animator>();
             Ctrl = this.GetComponent<CharacterController>();
 
-            HP_text = GameObject.Find("Canvas/HP").GetComponent<Text>();
-            HP_text.text = "HP " + HP.ToString();
-
             if (GetComponent<Collider>() != null)
             {
                 gameObject.AddComponent<Collider>();
@@ -88,17 +85,6 @@ namespace Sample
                 {
                     // nothing method
                 }
-            }
-            // Dissolve
-            if (HP <= 0 && !DissolveFlg)
-            {
-                Anim.CrossFade(DissolveState, 0.1f, 0, 0);
-                DissolveFlg = true;
-            }
-            // processing at respawn
-            else if (HP == maxHP && DissolveFlg)
-            {
-                DissolveFlg = false;
             }
         }
 

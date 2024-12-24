@@ -333,7 +333,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -903,7 +903,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -1008,7 +1008,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -1128,7 +1128,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -1348,7 +1348,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -1447,7 +1447,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.372, y: 0.41500002, z: 0.38900003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.41500002, z: 0.004}
   m_TimeToStationary: 0.5
@@ -1557,10 +1557,78 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
+--- !u!1001 &104569607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1183998485}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9534312
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.30161065
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.109
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Question Mark
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb77a17a1690d28469c32ddf7afdfbd2, type: 3}
 --- !u!1001 &111142437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1677,7 +1745,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -2053,7 +2121,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -2173,7 +2241,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -2460,7 +2528,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -2565,7 +2633,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -2837,7 +2905,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -2957,7 +3025,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -3077,7 +3145,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -3449,7 +3517,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -3569,7 +3637,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -3679,7 +3747,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -3883,7 +3951,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -3901,7 +3969,7 @@ GameObject:
   - component: {fileID: 245281999}
   - component: {fileID: 245282003}
   m_Layer: 0
-  m_Name: MainSceneCamera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4018,13 +4086,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245281998}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.015258904, y: 0.98131216, z: -0.16830178, w: -0.09202293}
-  m_LocalPosition: {x: 3.5309124, y: 7.804816, z: 23.664465}
+  m_LocalRotation: {x: 0.015942091, y: 0.87091285, z: -0.48250362, w: -0.091907315}
+  m_LocalPosition: {x: 3.5309124, y: 8.15, z: 12.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 30.168, y: 191.723, z: 0}
+  m_LocalEulerAnglesHint: {x: 56.878, y: 198.731, z: 12.306}
 --- !u!114 &245282003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4157,7 +4225,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -4385,7 +4453,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -4599,10 +4667,16 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
+--- !u!1 &276174606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5527053259235442766, guid: 0083d1c8cc354994b8641299c0ef1a41,
+    type: 3}
+  m_PrefabInstance: {fileID: 549658851}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &281672601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4798,7 +4872,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -5125,7 +5199,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -5230,7 +5304,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -5341,7 +5415,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -5549,7 +5623,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -5748,7 +5822,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -5853,7 +5927,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -5973,7 +6047,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -6094,7 +6168,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -6186,6 +6260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 433809911}
+  - component: {fileID: 433809912}
   m_Layer: 0
   m_Name: Markets
   m_TagString: Untagged
@@ -6249,6 +6324,28 @@ Transform:
   - {fileID: 8172504967688988172}
   m_Father: {fileID: 964955258}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &433809912
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433809910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &436344233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6365,7 +6462,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -6575,10 +6672,102 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
+--- !u!1001 &462786271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008065992880518809, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_Name
+      value: QuizTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: textOffset.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: playerTransform
+      value: 
+      objectReference: {fileID: 1139545087}
+    - target: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: answerObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 276174606}
+    - target: {fileID: 7976123124736207207, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 921455214}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f319cbae43d011948bf1c03359cb1dba, type: 3}
 --- !u!1001 &480422398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6774,88 +6963,10 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
---- !u!1001 &498852855
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1510894429999743458, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: answer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1510894429999743458, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 1139545087}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.1095033
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -9.152251
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.32
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282797157103889709, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_Name
-      value: Question2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95624532ef8636a439092ad4c9086180, type: 3}
 --- !u!1001 &502915584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6962,7 +7073,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -7072,7 +7183,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -7192,10 +7303,22 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
+--- !u!114 &516698674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+    type: 3}
+  m_PrefabInstance: {fileID: 462786271}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089485ed69f593c40b85a9f2546b77ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531129381
 GameObject:
   m_ObjectHideFlags: 0
@@ -7514,7 +7637,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -7718,10 +7841,134 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
+--- !u!1001 &549658851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 132304362524087821, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cea184e02824cac4998cdeb9c4354a93, type: 2}
+    - target: {fileID: 180564426519569792, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_TagString
+      value: AnswerO
+      objectReference: {fileID: 0}
+    - target: {fileID: 354612876917130677, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f09f87026f69c734f9ba184c75155886, type: 2}
+    - target: {fileID: 672296634147821512, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: triggerQuiz
+      value: 
+      objectReference: {fileID: 516698674}
+    - target: {fileID: 1724240161201259112, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.0700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1724240161201259112, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654673454990911937, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4654673454990911937, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527053259235442766, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_Name
+      value: Answer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5527053259235442766, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135774413831701346, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_TagString
+      value: AnswerX
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7214675902111002843, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8688217255381013870, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: triggerQuiz
+      value: 
+      objectReference: {fileID: 516698674}
+    m_RemovedComponents:
+    - {fileID: 7417561700660654897, guid: 0083d1c8cc354994b8641299c0ef1a41, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0083d1c8cc354994b8641299c0ef1a41, type: 3}
 --- !u!1001 &559078163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7828,7 +8075,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -7996,7 +8243,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.019, y: 0.123, z: 0.39100003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.123, z: 0}
   m_TimeToStationary: 0.5
@@ -8322,7 +8569,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -8427,7 +8674,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -8547,7 +8794,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -8667,7 +8914,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -8782,7 +9029,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -8902,7 +9149,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -9195,7 +9442,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -9315,7 +9562,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -9435,7 +9682,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -9540,7 +9787,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -9645,7 +9892,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -9839,7 +10086,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -9950,7 +10197,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -10070,7 +10317,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -10387,7 +10634,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -10612,7 +10859,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -10727,7 +10974,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -10826,7 +11073,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -11158,7 +11405,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -11278,7 +11525,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -11398,7 +11645,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -11508,7 +11755,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -11634,7 +11881,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -11916,7 +12163,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -12026,7 +12273,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -12300,7 +12547,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -12405,7 +12652,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -12619,7 +12866,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -12823,7 +13070,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -12937,7 +13184,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -13063,7 +13310,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -13173,7 +13420,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -13182,6 +13429,12 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3703760166310397755, guid: f74b0d6b21a350347aa1f01ddb3448fc,
     type: 3}
   m_PrefabInstance: {fileID: 1642746534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &921455214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cb77a17a1690d28469c32ddf7afdfbd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 104569607}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &925218870
 PrefabInstance:
@@ -13294,7 +13547,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -13414,7 +13667,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -13628,7 +13881,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -13924,7 +14177,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -14029,7 +14282,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -14145,7 +14398,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -14255,7 +14508,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -14375,7 +14628,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -14485,7 +14738,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -14605,7 +14858,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -14710,7 +14963,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -14815,7 +15068,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -14930,7 +15183,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -15386,7 +15639,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -15408,7 +15661,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.372, y: 0.41500002, z: 0.38900003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.41500002, z: 0.004}
   m_TimeToStationary: 0.5
@@ -15523,7 +15776,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -15715,7 +15968,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -15835,7 +16088,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -16049,7 +16302,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -16154,7 +16407,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -16259,7 +16512,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -16385,7 +16638,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -16407,7 +16660,7 @@ NavMeshAgent:
   m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8
-  avoidancePriority: 20
+  avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
@@ -16702,7 +16955,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -16850,10 +17103,16 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
+--- !u!4 &1183998485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 425099505882385362, guid: f319cbae43d011948bf1c03359cb1dba,
+    type: 3}
+  m_PrefabInstance: {fileID: 462786271}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1188997720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17043,7 +17302,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -17227,7 +17486,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -17423,7 +17682,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5905e-41, y: 2.07796e-40, z: 4.65e-43, w: 1.556033e-39}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -17544,7 +17803,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -17654,7 +17913,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -17858,7 +18117,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -18072,7 +18331,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -18192,10 +18451,16 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
+--- !u!1 &1285139611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8956327318858965918, guid: f373940ce5f864d44aa0b05696fa9211,
+    type: 3}
+  m_PrefabInstance: {fileID: 4808360359058795982}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1288475663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18312,7 +18577,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -18438,7 +18703,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -18637,7 +18902,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -18747,7 +19012,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -18867,7 +19132,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -18982,7 +19247,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -19175,7 +19440,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.75, y: 0.5, z: 0.4}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -19295,7 +19560,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -19671,7 +19936,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -19953,7 +20218,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -20063,7 +20328,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -20434,7 +20699,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -20653,7 +20918,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -20675,7 +20940,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -20697,7 +20962,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.36800003, y: 0.514, z: 0.38500002}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.514, z: 0.004}
   m_TimeToStationary: 0.5
@@ -20719,7 +20984,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.85, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -20839,7 +21104,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -21053,7 +21318,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -21163,7 +21428,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -21347,7 +21612,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -21457,7 +21722,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -21577,7 +21842,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -21682,7 +21947,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.55300003, y: 0.20700002, z: 0.70900005}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.125, y: 0.20700002, z: 0.086}
   m_TimeToStationary: 0.5
@@ -21881,7 +22146,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -22089,7 +22354,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -22209,7 +22474,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -22319,7 +22584,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -22439,7 +22704,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -22559,7 +22824,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -22581,7 +22846,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.55300003, y: 0.20700002, z: 0.70900005}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.125, y: 0.20700002, z: 0.086}
   m_TimeToStationary: 0.5
@@ -22686,7 +22951,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -22806,7 +23071,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -22926,7 +23191,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -23046,7 +23311,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -23320,7 +23585,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -23425,7 +23690,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -23447,7 +23712,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.55300003, y: 0.20700002, z: 0.70900005}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.125, y: 0.20700002, z: 0.086}
   m_TimeToStationary: 0.5
@@ -23541,7 +23806,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.372, y: 0.41500002, z: 0.38900003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.41500002, z: 0.004}
   m_TimeToStationary: 0.5
@@ -23646,7 +23911,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -23766,7 +24031,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -23871,7 +24136,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -24306,7 +24571,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -24520,7 +24785,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -24739,7 +25004,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -24761,7 +25026,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1, y: 0.5, z: 0.4}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.4}
   m_TimeToStationary: 0.5
@@ -24881,7 +25146,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -25065,7 +25330,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -25185,7 +25450,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -25285,7 +25550,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -25385,7 +25650,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -25574,7 +25839,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -25769,7 +26034,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 3.75, y: 0.5, z: 2.25}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -25889,7 +26154,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -26009,7 +26274,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.35}
   m_TimeToStationary: 0.5
@@ -26123,7 +26388,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -26243,7 +26508,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -26326,50 +26591,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1794977341}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1795854951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1795854952}
-  - component: {fileID: 1795854953}
-  m_Layer: 0
-  m_Name: MainSceneController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1795854952
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795854951}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.92362887, y: -2.5109217, z: -28.460558}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1795854953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795854951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0848788a0a22f6649bfe5a2ce32c3173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1802939219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26481,7 +26702,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -26601,7 +26822,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -26721,7 +26942,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -26836,7 +27057,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -26946,7 +27167,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -27056,7 +27277,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -27270,7 +27491,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -27314,7 +27535,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -27434,7 +27655,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -27533,7 +27754,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.36800003, y: 0.514, z: 0.38500002}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.514, z: 0.004}
   m_TimeToStationary: 0.5
@@ -27805,7 +28026,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -27920,7 +28141,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -28035,7 +28256,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
@@ -28155,7 +28376,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.342, y: 3.5640001, z: 1.4790001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 3.5640001, z: 0}
   m_TimeToStationary: 0.5
@@ -28256,7 +28477,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -28470,7 +28691,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -28674,7 +28895,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -28794,7 +29015,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -28822,7 +29043,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -28942,7 +29163,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -29156,7 +29377,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -29274,7 +29495,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.36800003, y: 0.514, z: 0.38500002}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.023000002, y: 0.514, z: 0.004}
   m_TimeToStationary: 0.5
@@ -29296,7 +29517,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -29416,7 +29637,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -29536,7 +29757,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -29647,7 +29868,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -29757,7 +29978,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.83500004, y: 0.365, z: 1.195}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.507, y: 0.365, z: -1.195}
   m_TimeToStationary: 0.5
@@ -29877,7 +30098,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -29987,7 +30208,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -30107,7 +30328,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -30212,7 +30433,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.33, y: 0.365, z: 1.2590001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.365, z: -1.2590001}
   m_TimeToStationary: 0.5
@@ -30332,7 +30553,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -30437,7 +30658,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8830001, y: 3.703, z: 1.8490001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.36200002, y: 3.5270002, z: -0.002}
   m_TimeToStationary: 0.5
@@ -30542,7 +30763,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -30721,7 +30942,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -30831,7 +31052,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.966, y: 0.365, z: 0.966}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.638, y: 0.365, z: -0.966}
   m_TimeToStationary: 0.5
@@ -30853,7 +31074,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.56100005, y: 0.43800002, z: 0.19500001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.437, z: 0.001}
   m_TimeToStationary: 0.5
@@ -30958,7 +31179,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.59400004, y: 0.568, z: 0.46500003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.0050000004, y: 0.568, z: 0.011000001}
   m_TimeToStationary: 0.5
@@ -31307,7 +31528,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -31427,7 +31648,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -31547,7 +31768,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -31667,7 +31888,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -31787,7 +32008,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -31959,7 +32180,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 3.5, y: 0.5, z: 1.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.3}
   m_TimeToStationary: 0.5
@@ -32068,9 +32289,9 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 2, y: 0.5, z: 1}
+  m_Extents: {x: 2, y: 0.5, z: 1.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -32185,7 +32406,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.5, y: 0.5, z: 2}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.3}
   m_TimeToStationary: 0.5
@@ -32207,7 +32428,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.5, y: 0.5, z: 1.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.31}
   m_TimeToStationary: 0.5
@@ -32306,7 +32527,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.5, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -32405,7 +32626,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1, y: 0.5, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.5}
   m_TimeToStationary: 0.5
@@ -32519,7 +32740,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8956327318858965918, guid: f373940ce5f864d44aa0b05696fa9211,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4808360359058795987}
   m_SourcePrefab: {fileID: 100100000, guid: f373940ce5f864d44aa0b05696fa9211, type: 3}
 --- !u!4 &4808360359058795983 stripped
 Transform:
@@ -32527,6 +32752,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4808360359058795982}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4808360359058795987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285139611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eeb5dc026fdf4b488bc7ae0138ab719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_StartPoint: {x: 0, y: 0, z: -2.5}
+  m_EndPoint: {x: 0, y: 0, z: 2.5}
+  m_Width: 1
+  m_CostModifier: -1
+  m_Bidirectional: 1
+  m_AutoUpdatePosition: 0
+  m_Area: 0
 --- !u!1001 &5208564038340896253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32622,7 +32867,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.45, y: 0.5, z: 0.35}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -32742,7 +32987,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.30900002, y: 0.208, z: 0.33800003}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.008, y: 0.208, z: -0.006}
   m_TimeToStationary: 0.5
@@ -32857,89 +33102,10 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.5460001, y: 2.5, z: 1.4860001}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.11100001, y: 2.5, z: -0.367}
   m_TimeToStationary: 0.5
---- !u!1001 &7439573750868209052
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1510894429999743458, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: correctTextData
-      value: 
-      objectReference: {fileID: 11400000, guid: e2b56f242cd17f345b9744600c94bf8a,
-        type: 2}
-    - target: {fileID: 1510894429999743458, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: playerTransform
-      value: 
-      objectReference: {fileID: 1139545087}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.1095033
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -9.152251
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.022417068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2498739290179369697, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7282797157103889709, guid: 95624532ef8636a439092ad4c9086180,
-        type: 3}
-      propertyPath: m_Name
-      value: Question
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95624532ef8636a439092ad4c9086180, type: 3}
 --- !u!1001 &7603383097673120607
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33046,7 +33212,7 @@ NavMeshObstacle:
   m_Shape: 0
   m_Extents: {x: 3.5, y: 1, z: 3.5}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.3, y: 0, z: 0}
   m_TimeToStationary: 0.5
@@ -33338,7 +33504,7 @@ NavMeshObstacle:
   m_Shape: 0
   m_Extents: {x: 2.6, y: 1, z: 2.6}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.3, y: 0, z: 0.3}
   m_TimeToStationary: 0.5
@@ -33522,7 +33688,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 0.31, y: 0.47500002, z: 0.231}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.011000001, y: 0.47500002, z: -0.011000001}
   m_TimeToStationary: 0.5
@@ -33548,7 +33714,6 @@ SceneRoots:
   - {fileID: 245282002}
   - {fileID: 964955258}
   - {fileID: 2112524154}
+  - {fileID: 549658851}
+  - {fileID: 462786271}
   - {fileID: 1039675420}
-  - {fileID: 7439573750868209052}
-  - {fileID: 498852855}
-  - {fileID: 1795854952}

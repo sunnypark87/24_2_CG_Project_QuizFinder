@@ -20,23 +20,87 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    [SerializeField] private string minigameSceneName = "Deathgame";
+    [SerializeField] private string minigameSceneName = "DeathGame";
+
+    [SerializeField] private Camera mainSceneCamera;
+    [SerializeField] private Camera miniGameSceneCamera;
 
     private string mainSceneName;
+
+    private void OnEnable()
+    {
+        // 씬이 로드될 때 카메라 상태 변경
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        // 씬이 언로드될 때 카메라 상태 변경
+        SceneManager.sceneUnloaded += OnSceneUnloaded;
+    }
+
+    private void OnDisable()
+    {
+        // 씬 로드, 언로드 이벤트 구독 해제
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneUnloaded -= OnSceneUnloaded;
+    }
+
+    // 씬이 로드될 때 호출되는 메서드
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("scene loaded");
+        Debug.Log(scene.name);
+        
+        if (scene.name == "main")
+        {
+            // MainScene의 카메라 활성화
+
+            mainSceneCamera = GameObject.Find("MainSceneCamera").GetComponent<Camera>();
+            if (mainSceneCamera != null)
+            {
+                mainSceneCamera.gameObject.SetActive(true);
+            }
+            miniGameSceneCamera.gameObject.SetActive(false);
+            Debug.Log("MainScene 카메라 활성화");
+        }
+        else if (scene.name == "DeathGame")
+        {
+            // MinigameScene의 카메라 활성화
+            miniGameSceneCamera = GameObject.Find("DeathgameSceneCamera").GetComponent<Camera>();
+            if (miniGameSceneCamera != null)
+            {
+                miniGameSceneCamera.gameObject.SetActive(true);
+            }
+            mainSceneCamera.gameObject.SetActive(false);
+            Debug.Log("MinigameScene 카메라 활성화");
+        }
+    }
+
+    // 씬이 언로드될 때 호출되는 메서드
+    private void OnSceneUnloaded(Scene scene)
+    {
+        
+        if (scene.name == minigameSceneName)
+        {
+            // MinigameScene 언로드 시 MainScene 카메라 활성화
+            miniGameSceneCamera = GameObject.Find("DeathgameSceneCamera").GetComponent<Camera>();
+            mainSceneCamera.gameObject.SetActive(true);
+            miniGameSceneCamera.gameObject.SetActive(false);
+            Debug.Log("MinigameScene 언로드, MainScene 카메라 활성화");
+        }
+    }
 
     private void Start()
     {
         mainSceneName = SceneManager.GetActiveScene().name;
+        Debug.Log(mainSceneName);
     }
 
     public void LoadDeathgame()
     {
-        /*
+        
         Scene minigameScene = SceneManager.GetSceneByName(minigameSceneName);
-        if (!minigameScene.isLoaded)
-        {
-            StartCoroutine(LoadDeathgameScene());
-        }*/
+        
+        Debug.Log("Start mini game");
+        StartCoroutine(LoadDeathgameScene());
+        
     }
 
     private IEnumerator LoadDeathgameScene()
