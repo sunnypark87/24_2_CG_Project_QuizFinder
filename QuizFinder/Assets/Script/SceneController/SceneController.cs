@@ -128,7 +128,7 @@ public class SceneController : MonoBehaviour
     {
         if (miniGameSceneCamera == null)
         {
-            GameObject cameraObject = GameObject.FindWithTag("DeathgameSceneCamera");
+            GameObject cameraObject = GameObject.Find("DeathgameSceneCamera");
             if (cameraObject != null)
             {
                 miniGameSceneCamera = cameraObject.GetComponent<Camera>();
