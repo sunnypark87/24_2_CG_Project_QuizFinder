@@ -147,6 +147,7 @@ public class TriggerQuiz : MonoBehaviour
             else
             {
                 Debug.Log("죽었습니다!");
+                Application.Quit();
             }
         }
     }
