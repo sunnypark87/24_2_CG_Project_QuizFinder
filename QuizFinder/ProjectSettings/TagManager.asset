@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Answer
   - Grass
+  - AnswerO
+  - AnswerX
   layers:
   - Default
   - TransparentFX
