@@ -58,9 +58,9 @@ public class BulletSpawner : MonoBehaviour
 
 
         Vector3 targetPosition = character + new Vector3(
-            Random.Range(-2f, 2f),
+            Random.Range(-0.5f, 0.5f),
             Random.Range(0.5f, 1f),
-            Random.Range(-2f, 2f)
+            Random.Range(-0.5f, 0.5f)
         );
 
         // 방향 벡터 계산
@@ -139,7 +139,6 @@ public class BulletCollision : MonoBehaviour
             Destroy(gameObject);
 
             GameData.deathgameResult = false;
-            GameData.deathgameCompleted = true;
 
             SceneController.Instance.UnloadDeathgame();
         }

@@ -21660,7 +21660,7 @@ MonoBehaviour:
   spawnCenter: {x: 0, y: 0, z: 0}
   minDistance: 10
   spawnRange: 10
-  fireForce: 800
+  fireForce: 500
   bulletLiftTime: 3
   bulletScale: {x: 0.3, y: 0.3, z: 0.3}
   bulletSpawnInterval: 0.5

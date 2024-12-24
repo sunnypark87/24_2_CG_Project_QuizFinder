@@ -153,29 +153,21 @@ public class TriggerQuiz : MonoBehaviour
         {
             // 오브젝트 비활성화
             answerObject.SetActive(false);
-            quizManager.increaseScore();
+            
         }
 
         questionText.SetActive(false);
 
         if (receivedAnswer == answer)
         {
+            quizManager.increaseScore();
             DynamicTextManager.CreateText(playerTransform.position + new Vector3(0, 4, 0), "Correct!", correctTextData);
         }
         else
         {
             Debug.Log("틀렸습니다");
-            SceneController.Instance.LoadDeathgame();
-            while (GameData.deathgameCompleted) ;
-            if (GameData.deathgameResult)
-            {
-                quizManager.increaseScore();
-            }
-            else
-            {
-                Debug.Log("죽었습니다!");
-                Application.Quit();
-            }
+            SceneController.Instance.SetQuizManager(quizManager);
+            SceneController.Instance.StartCoroutine(SceneController.Instance.LoadDeathgamewithTimer(10f));
         }
     }
 }

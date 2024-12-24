@@ -26,6 +26,11 @@ public class SceneController : MonoBehaviour
     [SerializeField] private Camera miniGameSceneCamera;
 
     private string mainSceneName;
+    private QuizManager quizManager;
+    public void SetQuizManager(QuizManager manager)
+    {
+        quizManager = manager;
+    }
 
     private void OnEnable()
     {
@@ -88,21 +93,91 @@ public class SceneController : MonoBehaviour
         mainSceneCamera = GameObject.Find("MainSceneCamera").GetComponent<Camera>();
     }
 
-    public void LoadDeathgame()
+    public IEnumerator LoadDeathgame()
     {
         Scene minigameScene = SceneManager.GetSceneByName(minigameSceneName);
         
-        StartCoroutine(LoadDeathgamewithTimer(10f));
+        yield return StartCoroutine(LoadDeathgamewithTimer(10f));
+    }
+    public IEnumerator HandleDeathgame()
+    {
+        yield return SceneController.Instance.LoadDeathgame();
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < 15f)
+        {
+            if (GameData.deathgameCompleted) // 특정 조건이 충족되면 즉시 탈출
+            {
+                yield break; // 코루틴 종료
+            }
+
+            elapsedTime += Time.deltaTime; // 경과 시간 업데이트
+            yield return null; // 다음 프레임까지 대기
+        }
+
+        Debug.Log($"Game Done : {GameData.deathgameCompleted}");
+        Debug.Log($"Result : {GameData.deathgameResult}");
+        if (GameData.deathgameResult)
+        {
+            Debug.Log("살았습니다!");
+            quizManager.increaseScore();
+        }
+        else
+        {
+            Debug.Log("죽었습니다!");
+            Application.Quit();
+        }
     }
 
-    private IEnumerator LoadDeathgamewithTimer(float delay)
+    public IEnumerator LoadDeathgamewithTimer(float delay)
     {
-        yield return LoadDeathgameScene();
-        yield return new WaitForSeconds(delay);
-       
-        
-        yield return UnloadDeathgameScene();
-        
+        yield return StartCoroutine(LoadDeathgameScene());
+
+        bool sceneUnloaded = false;
+        yield return StartCoroutine(WaitForConditionOrTime(delay, () => IsSceneUnloaded(), result => sceneUnloaded = result));
+
+        if (!sceneUnloaded)
+        {
+            yield return StartCoroutine(UnloadDeathgameScene());
+        }
+
+        Debug.Log($"Game Done : {GameData.deathgameCompleted}");
+        Debug.Log($"Result : {GameData.deathgameResult}");
+        if (GameData.deathgameResult)
+        {
+            Debug.Log("살았습니다!");
+            quizManager.increaseScore();
+        }
+        else
+        {
+            Debug.Log("죽었습니다!");
+            Application.Quit();
+        }
+
+    }
+
+    private IEnumerator WaitForConditionOrTime(float maxWaitTime, System.Func<bool> condition, System.Action<bool> onComplete)
+    {
+        float elapsedTime = 0f;
+        while (elapsedTime < maxWaitTime)
+        {
+            if (condition())
+            {
+                onComplete(true);
+                yield break;
+            }
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+        onComplete(false);
+    }
+
+    private bool IsSceneUnloaded()
+    {
+        Scene minigameScene = SceneManager.GetSceneByName(minigameSceneName);
+        return !minigameScene.isLoaded;
     }
 
     private IEnumerator LoadDeathgameScene()
@@ -114,8 +189,7 @@ public class SceneController : MonoBehaviour
             yield return null;
         }
 
-        GameData.deathgameResult = false;
-        GameData.deathgameCompleted = false;
+        GameData.deathgameResult = true;
 
     }
 
@@ -136,6 +210,7 @@ public class SceneController : MonoBehaviour
             }
         }
 
+        GameData.deathgameCompleted = true;
         AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync(minigameSceneName);
 
         while (!asyncUnload.isDone)

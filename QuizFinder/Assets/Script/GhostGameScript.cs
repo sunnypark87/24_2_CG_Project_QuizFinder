@@ -34,17 +34,13 @@ namespace Sample
         [SerializeField] private float jumpForce = 8f; // 점프 힘
         private float ySpeed = 0f; // y축 속도
         private bool isGrounded = false; // 바닥에 있는지 체크
-        private bool isJumping = false; // 점프 중인지 체크
 
         void Start()
         {
             Anim = this.GetComponent<Animator>();
             Ctrl = this.GetComponent<CharacterController>();
 
-            if (GetComponent<Collider>() != null)
-            {
-                gameObject.AddComponent<Collider>();
-            }
+            
         }
 
         void Update()
@@ -185,7 +181,6 @@ namespace Sample
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
                     ySpeed = jumpForce; // 점프 시작
-                    isJumping = true;
                 }
             }
 

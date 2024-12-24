@@ -57,6 +57,7 @@ public class MapAutoCollider : MonoBehaviour
 
                 // Convex 옵션 설정 (필요 시)
                 meshCollider.convex = false; // or true for simpler collisions
+                meshCollider.isTrigger = false;
             }
         }
     }
