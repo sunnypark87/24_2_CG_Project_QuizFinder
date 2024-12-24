@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class MainSceneController : MonoBehaviour
 {
+    private void Start()
+    {
+
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.M)) // M 키를 눌러 Minigame 호출
