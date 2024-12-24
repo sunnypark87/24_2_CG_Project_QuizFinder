@@ -6,9 +6,11 @@ public class TriggerQuiz : MonoBehaviour
 {
     public string displayText; // 표시할 텍스트
     public DynamicTextData textData; // 사용할 텍스트 데이터
+    public DynamicTextData correctTextData; // 정답 표시에 사용할 텍스트 데이터
     public Vector3 textOffset; // 텍스트가 나타날 위치 오프셋
     bool check = false;
     public List<GameObject> answerObjects;
+    GameObject questionText;
     public bool answer;
     public Transform playerTransform;
 
@@ -20,7 +22,7 @@ public class TriggerQuiz : MonoBehaviour
             // 텍스트를 생성
             Vector3 spawnPosition = transform.position + textOffset;
 
-            DynamicTextManager.CreateText(spawnPosition, displayText, textData);
+            questionText = DynamicTextManager.CreateText(spawnPosition, displayText, textData);
 
             // Answer 태그를 가진 모든 오브젝트 활성화
             ActivateAnswerObjects();
@@ -47,9 +49,11 @@ public class TriggerQuiz : MonoBehaviour
             answerObject.SetActive(false);
         }
 
+        Destroy(questionText);
+
         if (receivedAnswer == answer)
         {
-            DynamicTextManager.CreateText(playerTransform.position + new Vector3(0, 4, 0), "Correct!", textData);
+            DynamicTextManager.CreateText(playerTransform.position + new Vector3(0, 4, 0), "Correct!", correctTextData);
         }
         else
         {

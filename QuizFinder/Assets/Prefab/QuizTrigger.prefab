@@ -120,6 +120,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: You stepped on the trigger!
   textData: {fileID: 11400000, guid: 4c3190239345bfd4291b0f3ef25e89d2, type: 2}
+  correctTextData: {fileID: 11400000, guid: e2b56f242cd17f345b9744600c94bf8a, type: 2}
   textOffset: {x: 0, y: 5, z: 0}
   answerObjects:
   - {fileID: 0}
+  answer: 0
+  playerTransform: {fileID: 0}
