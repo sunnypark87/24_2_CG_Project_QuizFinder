@@ -3516,7 +3516,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -6273,6 +6273,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 514401470}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &516698674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2731254392405474732, guid: f319cbae43d011948bf1c03359cb1dba,
+    type: 3}
+  m_PrefabInstance: {fileID: 462786271}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 089485ed69f593c40b85a9f2546b77ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531129381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6760,6 +6772,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: AnswerO
       objectReference: {fileID: 0}
+    - target: {fileID: 672296634147821512, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: triggerQuiz
+      value: 
+      objectReference: {fileID: 516698674}
     - target: {fileID: 5527053259235442766, guid: 0083d1c8cc354994b8641299c0ef1a41,
         type: 3}
       propertyPath: m_Name
@@ -6825,6 +6842,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8688217255381013870, guid: 0083d1c8cc354994b8641299c0ef1a41,
+        type: 3}
+      propertyPath: triggerQuiz
+      value: 
+      objectReference: {fileID: 516698674}
     m_RemovedComponents:
     - {fileID: 7417561700660654897, guid: 0083d1c8cc354994b8641299c0ef1a41, type: 3}
     m_RemovedGameObjects: []
