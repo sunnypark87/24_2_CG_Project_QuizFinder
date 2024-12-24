@@ -41,6 +41,12 @@ public class TriggerQuiz : MonoBehaviour
 
     public void SubmitAnswer(bool receivedAnswer)
     {
+        foreach (GameObject answerObject in answerObjects)
+        {
+            // 오브젝트 비활성화
+            answerObject.SetActive(false);
+        }
+
         if (receivedAnswer == answer)
         {
             DynamicTextManager.CreateText(playerTransform.position + new Vector3(0, 4, 0), "Correct!", textData);
@@ -48,11 +54,8 @@ public class TriggerQuiz : MonoBehaviour
         else
         {
             Debug.Log("틀렸습니다");
+            SceneController.Instance.LoadDeathgame();
         }
-        foreach (GameObject answerObject in answerObjects)
-        {
-            // 오브젝트 비활성화
-            answerObject.SetActive(false);
-        }
+        
     }
 }
