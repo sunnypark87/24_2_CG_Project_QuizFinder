@@ -15,7 +15,7 @@ MonoBehaviour:
   id: 1
   colours: []
   sizes:
-  - 3
+  - 2
   font: {fileID: 0}
   bold: 0
   italic: 0
