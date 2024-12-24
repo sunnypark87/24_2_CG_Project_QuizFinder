@@ -45,14 +45,12 @@ public class SceneController : MonoBehaviour
     // 씬이 로드될 때 호출되는 메서드
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("scene loaded");
         Debug.Log(scene.name);
         
         if (scene.name == "main")
         {
             // MainScene의 카메라 활성화
 
-            mainSceneCamera = GameObject.Find("MainSceneCamera").GetComponent<Camera>();
             if (mainSceneCamera != null)
             {
                 mainSceneCamera.gameObject.SetActive(true);
@@ -76,13 +74,10 @@ public class SceneController : MonoBehaviour
     // 씬이 언로드될 때 호출되는 메서드
     private void OnSceneUnloaded(Scene scene)
     {
-        
         if (scene.name == minigameSceneName)
         {
             // MinigameScene 언로드 시 MainScene 카메라 활성화
-            miniGameSceneCamera = GameObject.Find("DeathgameSceneCamera").GetComponent<Camera>();
             mainSceneCamera.gameObject.SetActive(true);
-            miniGameSceneCamera.gameObject.SetActive(false);
             Debug.Log("MinigameScene 언로드, MainScene 카메라 활성화");
         }
     }
@@ -90,16 +85,23 @@ public class SceneController : MonoBehaviour
     private void Start()
     {
         mainSceneName = SceneManager.GetActiveScene().name;
-        Debug.Log(mainSceneName);
+        mainSceneCamera = GameObject.Find("MainSceneCamera").GetComponent<Camera>();
     }
 
     public void LoadDeathgame()
     {
-        
         Scene minigameScene = SceneManager.GetSceneByName(minigameSceneName);
         
-        Debug.Log("Start mini game");
-        StartCoroutine(LoadDeathgameScene());
+        StartCoroutine(LoadDeathgamewithTimer(10f));
+    }
+
+    private IEnumerator LoadDeathgamewithTimer(float delay)
+    {
+        yield return LoadDeathgameScene();
+        yield return new WaitForSeconds(delay);
+       
+        
+        yield return UnloadDeathgameScene();
         
     }
 
@@ -115,7 +117,6 @@ public class SceneController : MonoBehaviour
         GameData.deathgameResult = false;
         GameData.deathgameCompleted = false;
 
-        Debug.Log("Minigame Scene Loaded");
     }
 
     public void UnloadDeathgame()
@@ -125,18 +126,21 @@ public class SceneController : MonoBehaviour
 
     private IEnumerator UnloadDeathgameScene()
     {
+        if (miniGameSceneCamera == null)
+        {
+            GameObject cameraObject = GameObject.FindWithTag("DeathgameSceneCamera");
+            if (cameraObject != null)
+            {
+                miniGameSceneCamera = cameraObject.GetComponent<Camera>();
+                miniGameSceneCamera.gameObject.SetActive(false);
+            }
+        }
+
         AsyncOperation asyncUnload = SceneManager.UnloadSceneAsync(minigameSceneName);
 
         while (!asyncUnload.isDone)
         {
             yield return null;
         }
-
-        if (GameData.deathgameCompleted)
-        {
-            Debug.Log($"Minigame Result: {GameData.deathgameResult}");
-        }
-
-        Debug.Log("Minigame Scene Unloaded");
     }
 }

@@ -16,9 +16,7 @@ public class BulletSpawner : MonoBehaviour
     public float bulletSpawnInterval = 1f;
     private bool isSpawning = false;
 
-    public Mesh customBulletMesh; // Inspector에서 할당
-    public Material customBulletMaterial; // Inspector에서 할당
-    public GameObject bulletPrefab; // Prefab을 인스펙터에서 할당
+    public Material customBulletMaterial; 
 
     private LayerMask playerLayer;
 
@@ -40,6 +38,12 @@ public class BulletSpawner : MonoBehaviour
         GameObject bullet = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         bullet.transform.position = randomPosition;
         bullet.transform.localScale = bulletScale;
+
+        if (customBulletMaterial != null)
+        {
+            MeshRenderer renderer = bullet.GetComponent<MeshRenderer>();
+            renderer.material = customBulletMaterial;
+        }
 
         int bulletLayer = LayerMask.NameToLayer("BulletLayer");
         if (bulletLayer != -1)
@@ -137,7 +141,7 @@ public class BulletCollision : MonoBehaviour
             GameData.deathgameResult = false;
             GameData.deathgameCompleted = true;
 
-            //SceneController.Instance.UnloadDeathgame();
+            SceneController.Instance.UnloadDeathgame();
         }
     }
 }

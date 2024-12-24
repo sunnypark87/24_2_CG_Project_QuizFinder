@@ -21656,20 +21656,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1095917675}
-  gameTime: 60
+  gameTime: 10
   spawnCenter: {x: 0, y: 0, z: 0}
   minDistance: 10
   spawnRange: 10
   fireForce: 800
-  bulletLiftTime: 5
+  bulletLiftTime: 3
   bulletScale: {x: 0.3, y: 0.3, z: 0.3}
   bulletSpawnInterval: 0.5
-  customBulletMesh: {fileID: 4019234525060620036, guid: 5cab68a22e51ff64088e8cd0e556ab8a,
-    type: 3}
-  customBulletMaterial: {fileID: 2100000, guid: 12f7312dd149c3b4a92b4216a8ae4800,
+  customBulletMaterial: {fileID: 2100000, guid: c111bf84bfd21ce4391d59cbc930bd2b,
     type: 2}
-  bulletPrefab: {fileID: 3219109447335224082, guid: 4484866c96f56bb47ac5474f112aad57,
-    type: 3}
 --- !u!4 &1311930899
 Transform:
   m_ObjectHideFlags: 0
