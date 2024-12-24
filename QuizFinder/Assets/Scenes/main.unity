@@ -6547,6 +6547,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Question5
       objectReference: {fileID: 0}
+    - target: {fileID: 7858151637949924956, guid: 95624532ef8636a439092ad4c9086180,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6943,6 +6948,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Question2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858151637949924956, guid: 95624532ef8636a439092ad4c9086180,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11694,6 +11704,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Question3
       objectReference: {fileID: 0}
+    - target: {fileID: 7858151637949924956, guid: 95624532ef8636a439092ad4c9086180,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13891,6 +13906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Question4
       objectReference: {fileID: 0}
+    - target: {fileID: 7858151637949924956, guid: 95624532ef8636a439092ad4c9086180,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15211,6 +15231,12 @@ PrefabInstance:
       propertyPath: _mainCamera
       value: 
       objectReference: {fileID: 245282002}
+    - target: {fileID: 1797442807575341249, guid: 36ba40da211a6a84497e79ad70d94895,
+        type: 3}
+      propertyPath: _canvasPrefab
+      value: 
+      objectReference: {fileID: 1926280506753864649, guid: dd88e50c89d53eb46abb5b1e73d9d025,
+        type: 3}
     - target: {fileID: 2042655233032887290, guid: 36ba40da211a6a84497e79ad70d94895,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33254,6 +33280,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Question
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858151637949924956, guid: 95624532ef8636a439092ad4c9086180,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

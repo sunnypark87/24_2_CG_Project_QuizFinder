@@ -29,6 +29,10 @@ public class DynamicTextManager : MonoBehaviour
 
     public static GameObject CreateText(Vector3 position, string text, DynamicTextData data)
     {
+        Debug.Log(canvasPrefab);
+        if (canvasPrefab == null) {
+            return null;
+        }
         GameObject newText = Instantiate(canvasPrefab, position, Quaternion.identity);
         newText.transform.GetComponent<DynamicText>().Initialise(text, data);
 
