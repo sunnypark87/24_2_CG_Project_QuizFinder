@@ -14,6 +14,7 @@ public class TriggerQuiz : MonoBehaviour
     GameObject questionText;
     public bool answer;
     public Transform playerTransform;
+    public QuizManager quizManager;
 
     // Quiz data structure
     [System.Serializable]
@@ -86,7 +87,15 @@ public class TriggerQuiz : MonoBehaviour
             Vector3 spawnPosition = transform.position + textOffset;
 
             // Choose a random quiz question
-            int randomIndex = Random.Range(0, quizzes.Count);
+            int randomIndex;
+            while (true)
+            {
+                randomIndex = Random.Range(0, quizzes.Count);
+                if (quizManager.quizTracker(randomIndex))
+                {
+                    break;
+                }
+            }
             Debug.Log($"randomIndex: {randomIndex}");
             displayText = quizzes[randomIndex].question;
 
@@ -117,6 +126,7 @@ public class TriggerQuiz : MonoBehaviour
         {
             // 오브젝트 비활성화
             answerObject.SetActive(false);
+            quizManager.increaseScore();
         }
 
         Destroy(questionText);
@@ -129,7 +139,15 @@ public class TriggerQuiz : MonoBehaviour
         {
             Debug.Log("틀렸습니다");
             SceneController.Instance.LoadDeathgame();
+            while (GameData.deathgameCompleted) ;
+            if (GameData.deathgameResult)
+            {
+                quizManager.increaseScore();
+            }
+            else
+            {
+                Debug.Log("죽었습니다!");
+            }
         }
-        
     }
 }
