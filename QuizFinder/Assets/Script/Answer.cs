@@ -6,7 +6,7 @@ public class Answer : MonoBehaviour
 {
     public string displayText; // 표시할 텍스트 (O 또는 X)
     public DynamicTextData textData; // 사용할 텍스트 데이터
-    public Vector3 textOffset = new Vector3(0, 2, 0); // 텍스트 위치 오프셋
+    public Vector3 textOffset;
     public TriggerQuiz triggerQuiz;
     protected bool thisAnswer;
     protected GameObject createdText;
@@ -38,7 +38,7 @@ public class Answer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             triggerQuiz.SubmitAnswer(thisAnswer);
-            Destroy(createdText);
+            createdText.SetActive(false);
         }
     }
 
@@ -46,7 +46,7 @@ public class Answer : MonoBehaviour
     {
         if (createdText != null)
         {
-            Destroy(createdText);
+            createdText.SetActive(false);
         }
     }
 }
