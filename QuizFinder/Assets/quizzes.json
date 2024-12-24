@@ -1,51 +1,51 @@
 {
     "quizzes": [
         {
-            "question": "The simplest among the various texturing methods is not image texturing.",
+            "question": "The simplest among the various \ntexturing methods is not image texturing.",
             "answer": "X"
         },
         {
-            "question": "A texture is typically represented as a 2D array of texels texture elements.",
+            "question": "A texture is typically represented \nas a 2D array of texels texture elements.",
             "answer": "O"
         },
         {
-            "question": "A texels location can not be described by the coordinates of its center.",
+            "question": "A texels location can not be \ndescribed by the coordinates of its center.",
             "answer": "X"
         },
         {
-            "question": "Image texturing is often described as pasting an image on an objects surface.",
+            "question": "Image texturing is often described as \npasting an image on an objects surface.",
             "answer": "O"
         },
         {
-            "question": "The most popular lighting method is not based on the Phong model.",
+            "question": "The most popular lighting method is \nnot based on the Phong model.",
             "answer": "X"
         },
         {
-            "question": "The Phong model is composed of four terms  diffuse, specular, ambient and emissive.",
+            "question": "The Phong model is composed of four terms: \n diffuse, specular, ambient and emissive.",
             "answer": "O"
         },
         {
-            "question": "The diffuse term is not based on Lamberts law.",
+            "question": "The diffuse term is \nnot based on Lamberts law.",
             "answer": "X"
         },
         {
-            "question": "Lambertian surfaces are not scattered with equal intensity in all directions.",
+            "question": "Lambertian surfaces are not scattered\n with equal intensity in all directions.",
             "answer": "X"
         },
         {
-            "question": "The amount of perceived reflection is not independent of the view direction",
+            "question": "The amount of perceived reflection is\n not independent of the view direction",
             "answer": "X"
         },
         {
-            "question": "The fragment shader has not processed the fragments in the viewport.",
+            "question": "The fragment shader has not processed\n the fragments in the viewport.",
             "answer": "X"
         },
         {
-            "question": "Color buffer is not a memory space storing the pixels to be displayed on the screen.",
+            "question": "Color buffer is not a memory space storing\n the pixels to be displayed on the screen.",
             "answer": "X"
         },
         {
-            "question": "If the fragment has a smaller zvalue, its color and zvalue are used to update the color buffer and zbuffer",
+            "question": "If the fragment has a smaller zvalue,\n its color and zvalue are used to\n update the color buffer and zbuffer",
             "answer": "O"
         }
     ]
