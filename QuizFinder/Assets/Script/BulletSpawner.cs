@@ -64,8 +64,6 @@ public class BulletSpawner : MonoBehaviour
 
 
         bullet.transform.forward = direction;
-        Debug.Log(randomPosition.x.ToString() + randomPosition.y.ToString() + randomPosition.z.ToString());
-        Debug.Log(direction.x.ToString() + direction.y.ToString() + direction.z.ToString());
         /*
         LineRenderer lineRenderer = bullet.AddComponent<LineRenderer>();
         lineRenderer.startWidth = 0.05f;
@@ -135,6 +133,11 @@ public class BulletCollision : MonoBehaviour
 
             // 충돌 후 총알을 제거하거나 다른 처리를 할 수 있음
             Destroy(gameObject);
+
+            GameData.deathgameResult = false;
+            GameData.deathgameCompleted = true;
+
+            //SceneController.Instance.UnloadDeathgame();
         }
     }
 }
