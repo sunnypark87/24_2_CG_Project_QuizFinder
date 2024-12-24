@@ -7,6 +7,7 @@ TagManager:
   - Map
   - Enemy
   - Answer
+  - Grass
   - AnswerO
   - AnswerX
   layers:
@@ -16,9 +17,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - MapLayer
+  - PlayerLayer
+  - BulletLayer
   - 
   - 
   - 
