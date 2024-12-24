@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcff3a5a705644c4e9a3068b0236a108, type: 3}
   m_Name: ClearData
   m_EditorClassIdentifier: 
-  id: 1
+  id: 3
   colours: []
   sizes:
-  - 3
+  - 5
   font: {fileID: 0}
   bold: 0
   italic: 0
